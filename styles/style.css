@@ -8,7 +8,14 @@ body{
 
         font-family: "Merriweather", serif;
         font-weight: 400;
-        font-style: normal;     
+        font-style: normal;
+        
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font: weight 700px;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
 }
 .container{
     display: flex;
@@ -36,3 +43,44 @@ font-size: 32px;
 text-align: center;
 font-size: 72px;
 }
+.discout-container{
+  /* border: 1px solid red; */
+height:700px;
+margin-top: 50px;
+}
+.discoun-div{
+   flex-grow: 1;
+   /* border: 1px solid green; */
+}
+.discout-container h2{
+color: #F00;
+margin-bottom: 10px;
+text-align: center;
+font-size: 88px;
+font-weight: 700;
+}
+.discout-container p{
+color: #F00;
+text-align: center;
+font-size: 24px;
+}
+.discout-container h3{
+color: #070211;
+text-align: center;
+font-family: Inter;
+font-size: 48px;
+margin-bottom: 20px;
+}
+.img-div{
+    max-width:800px;
+    width: 50%;
+    margin: 0 auto;
+}
+.celebrate-new-year{
+    border: 1px solid green;
+    max-width: 1320px;
+    width: 82%;
+    margin: 100px auto ;
+    height: 600px;
+}
+
